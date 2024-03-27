@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sectionCalc{
+    margin-left: 5vw;
+}
+
+.wrapCalc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2vh;
+    gap: 2vw;
+}
+
+.wrapInputsCalc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.inpStyle{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--text-title);
+    color: var( --text-title);
+    transition: all 200ms ease-out;
+}
+
+.inpStyle:hover{
+    border: 1px solid var(--text-p);
+    color: var(--text-p);
+    box-shadow: var(--color-shadow);
+    transition: all 200ms ease-in;
+}
+
+.wrapEach{
+    width: 15vw;
+    height: auto;
+    background-color:var(--bg-secondary) ;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.wrapEachMed{
+    width: 25vw;
+    height: auto;
+    background-color:var(--bg-secondary) ;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}

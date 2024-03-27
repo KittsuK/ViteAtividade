@@ -15,7 +15,7 @@ export default function Menu(){
                     <a href={'/calc'}>Calc</a>
                 </p>
                 <p>
-                    <a href={'/'}>Contact</a>
+                    <a href={'/contact'}>Contact</a>
                 </p>
                 <p>
                     <a href={'/'}>Rick and Morty API</a>

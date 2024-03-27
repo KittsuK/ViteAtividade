@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 
 import App from './App.jsx'
-import Calc from './components/Calc.jsx';
+import {Calc} from './Calc.jsx';
+import { Contact } from './Contact.jsx';
 import './index.css'
 import { Tec } from './Tec.jsx';
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/calc",
     element:  <Calc />,
+  },
+  {
+    path: "/contact",
+    element:  <Contact />,
   },
 ]);
 
