@@ -1,0 +1,25 @@
+.wrapPrincipal{
+  display: flex;
+  flex-direction: column;
+}
+
+.firstPageHeading{
+  padding-top: 100px;
+}
+
+.divPrincipal{
+  margin-left: 5vw;
+}
+
+.cards{
+  width: 15vw;
+  height: auto;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg-third);
+  border-radius: 20px;
+  border: 5px solid black;
+
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.divPrincipal{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 5vw;
+    height: 100%;
+    align-items: center;
+    border-right: 2px solid black;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(61, 56, 56);
+    gap: 5%;
+    padding-top: 5vh;
+}
+
+.opMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    gap: 5vh;
+}
